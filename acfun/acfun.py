@@ -83,7 +83,7 @@ elif 'www.acfun.cn/u/' in url:
         for page in range(1, page + 1):
             page_(url=url, page=page)
 
-            print(url)
+            print('第二页')
     elif user == '自定义':
         home = int(input('起始页: '))
         end = int(input('结束页: '))
